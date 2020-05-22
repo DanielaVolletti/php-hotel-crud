@@ -24,8 +24,7 @@
     $res = [];
 
     while ($row = $results -> fetch_assoc()) {
-        $res[] = $row['status'] . " , "
-                . $row['price'] . "<br>";
+        $res[] = $row;
     }
 
     $conn -> close();
