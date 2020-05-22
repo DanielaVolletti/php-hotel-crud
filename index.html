@@ -2,6 +2,7 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js" charset="utf-8"></script>
     <title>Pagamenti</title>
@@ -10,5 +11,11 @@
     <ul id="info-pagamenti">
 
     </ul>
+
+    <!-- handlebars -->
+    <script id="pagamenti-template" type="text/x-handlebars-template">
+      <li>{{pagamento}}</li>
+    </script>
+
   </body>
 </html>
